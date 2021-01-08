@@ -1,0 +1,35 @@
+.movie-select {
+  margin: 2rem;
+  width: 70%;
+
+  .top-sec {
+    display: flex;
+    align-items: center;
+
+    .movie-content {
+      margin: 2rem;
+      * {
+        margin: 2rem 0;
+      }
+
+      h2 {
+        font-size: 3.2rem;
+        color: #a5a500;
+        font-weight: 600;
+      }
+
+      span {
+        color: #fd5e5e;
+      }
+    }
+  }
+
+  .bottom-sec {
+    margin-top: 3rem;
+    h2 {
+        color: #fd5e5e;
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+    }
+  }
+}

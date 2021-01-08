@@ -1,0 +1,36 @@
+.movies-main{
+    width: 100%;
+    display: flex;
+
+    .searched-movies{
+        width: 30%;
+        border-right: 1px solid rgb(202, 202, 202);
+        padding: 1rem;
+
+        .movie{
+            color: #fff;
+            background: #000;
+            padding: 1rem;
+            margin: 1rem 0;
+            display: flex;
+            align-items: center;
+            
+            .movie-content{
+                padding: 2rem;
+                p, h2{
+                    margin: 1rem 0;
+
+                    &.movie-name{
+                       color: #fdfd62;
+                       font-size: 2.8rem;
+                    }
+
+                    span{
+                        color: #fd5e5e;
+                    }
+                }
+            }
+            
+        }
+    }
+}
