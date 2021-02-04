@@ -22,8 +22,6 @@ function Maincomp() {
           setFetData(error);
         }
       );
-
-      console.log(fetdata);
   };
 
   return (
